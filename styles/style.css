@@ -1,0 +1,123 @@
+/* header section */
+
+.container{
+    width: 85%;
+}
+.banner{
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(70, 70, 70);
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 50px;
+    color: white; 
+     
+}
+.banner-both{
+    width: 50%;
+    padding: 4%;
+}
+.banner p{
+    color: white;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* menu */
+.full{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 15px;
+    margin-bottom: 70px;
+}
+.menu-container{
+  border: 2px solid;
+  width: 300px;
+  background-color: black;
+  height: 282px;
+  border-radius: 12px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.menu-button{
+        margin: 16px 32px;
+        padding: 16px 30px;
+        border-radius: 13px;
+        font-weight:600;
+        font-size: 21px;
+}
+#Blog{
+    background-color: red;
+    color: white;
+}
+
+/* transfar */
+.transfer{
+    display: grid;
+    grid-template-columns: 1fr repeat(1,1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+    max-width: 0px 100px;
+}
+.article{
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.transfer-text{
+margin: 9px 20px;
+font-weight: 700;
+}
+.transfer-button{
+    padding: 7px 15px;
+    border-radius: 5px;   
+}
+.icons{
+    margin-right: 10px;
+    font-weight: 100;
+}
+
+/* footer  */
+footer{
+    background-color: rgb(66, 66, 66);
+}
+.footer{
+    text-align: center;
+    height: 100%;
+}
+.footer h1{
+    padding-top: 120px;
+}
+.policies{
+    margin-top: 45px;
+}
+.pol{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+}
+
+/* utility classes */
+body{
+  font-family: 'Courgette', cursive;
+font-family: 'Poppins', sans-serif;
+}
+.btn{
+    padding: 14px 40px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    margin: 2px 50px;
+}
