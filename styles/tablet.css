@@ -1,0 +1,41 @@
+@media only screen and (min-width:689px) and (max-width:992px){
+    /* menu section */
+  .full-menu{
+      display: flex;
+      flex-direction: column;
+     
+      border: none;
+  }
+  .menu{
+      display: flex;
+      flex-direction: row;
+  }
+  .menu-container{
+      width: 100%;
+      background-color: white;
+      border: none;
+      margin-bottom: -15%;
+  }
+  .menu-button{
+      width: 31%;
+  }
+
+  /* transfar section */
+  .transfer{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+    .article{
+      margin-top: 2%;
+     }
+
+     
+     /* footer section */
+     .policies{
+      margin-right: 15%;
+      margin-left: 15%;
+ }
+ .info{
+  margin-top: 4%;
+ }
+}
